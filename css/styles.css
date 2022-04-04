@@ -1,0 +1,156 @@
+/**
+ * Mdsoft INT
+ *
+ * @category    Integration
+ * @package     Global STYLUS
+ * @copyright   Copyright (c) 2016 MDWEB. (http://www.mdweb-int.com)
+ * @author      BESSROUR Ahmed (ahmed.bessrour@gmail.com)
+ */
+/*==== Reset=================*/
+.menu {
+  border: 1px #9b9b9b;
+  border-bottom: 2px solid #9b9b9b;
+  background: #1b1b1b;
+}
+.menu .navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.menu .navbar-collapse .navbar-nav .nav-link {
+  margin-right: 2rem;
+}
+.menu .socials a {
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .menu .navbar-collapse .navbar-nav .nav-link {
+    margin-right: inherit;
+  }
+}
+.title {
+  text-align: center;
+}
+.title button {
+  margin: 20px;
+}
+
+.roadmap .roadmap-content {
+  text-align: center;
+}
+
+footer {
+  border: 1px #9b9b9b;
+  border-top: 2px solid #9b9b9b;
+  background: #1b1b1b;
+  padding: 20px;
+  margin: 50px 0 0 0;
+}
+footer .logo {
+  float: left;
+}
+footer .logo img {
+  max-width: 100px;
+}
+footer .social {
+  float: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .social a {
+  margin: 50px;
+}
+footer .social a:hover {
+  color: #9b9b9b;
+}
+
+@media screen and (max-width: 490px) {
+  .about h3 {
+    margin: 20px 0 0 0;
+  }
+
+  footer .logo {
+    float: inherit;
+    text-align: center;
+  }
+  footer .social {
+    float: inherit;
+    text-align: center;
+  }
+}
+.slider {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  margin: 22px auto auto;
+  margin: 100px 0 50px 0px;
+}
+
+.slider .owl-item img {
+  border-radius: 25px;
+  height: 100%;
+}
+.slider:before {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0.1, #1b1b1b), to(rgba(226, 225, 225, 0)));
+  background: linear-gradient(90deg, #1b1b1b 0.1, rgba(226, 225, 225, 0));
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.5;
+}
+.slider:after {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #1b1b1b), to(rgba(226, 225, 225, 0)));
+  background: linear-gradient(90deg, #1b1b1b 0, rgba(226, 225, 225, 0));
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+body {
+  font-family: Gomarice;
+  background: #1b1b1b;
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 60px;
+  margin: 100px 0 50px 0px;
+}
+
+p {
+  font-family: Gilory;
+  margin-top: 18px;
+  font-size: 22px;
+}
+
+summary {
+  font-size: 22px;
+  padding: 1rem 0px 10px;
+}
+
+.btn {
+  border-radius: 18px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+/*===========================*/

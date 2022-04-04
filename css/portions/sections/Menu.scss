@@ -1,0 +1,33 @@
+.menu{
+    border: 1px #9b9b9b;
+    border-bottom: 2px solid #9b9b9b;
+    background: #1b1b1b;
+    .navbar-collapse {
+           flex-grow: 0;
+           text-align: center;
+           justify-content: center;
+            .navbar-nav {
+                .nav-link {
+                    margin-right: 2rem;
+                  
+                   }
+            }
+    }
+    .socials{
+        a{
+            margin: 0 20px;
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .menu{
+        .navbar-collapse{
+            .navbar-nav {
+                .nav-link {
+                    margin-right: inherit;
+                  
+                   }
+            }
+        }
+    }
+}

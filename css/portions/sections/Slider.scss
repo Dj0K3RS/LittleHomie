@@ -1,0 +1,38 @@
+.slider {
+    
+    position: relative;
+    
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    margin: 22px auto auto;
+    margin: 100px 0 50px 0px;
+}
+.slider  {
+    .owl-item{
+        img{
+            border-radius: 25px;
+            height: 100%;
+        }
+        
+    }
+    &:before{
+        background: linear-gradient(90deg,#1b1b1b 0.1,rgba(226,225,225,0));
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        opacity: 0.5;
+    }
+    &:after{
+        background: linear-gradient(90deg,#1b1b1b 0,rgba(226,225,225,0));
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        opacity: 0.6;
+    }
+   
+}

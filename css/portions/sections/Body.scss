@@ -1,0 +1,55 @@
+.title{
+    text-align: center;
+    button{
+        margin: 20px;
+    }
+}
+
+.roadmap .roadmap-content{
+    text-align: center;
+}
+footer{
+    border: 1px #9b9b9b;
+    border-top: 2px solid #9b9b9b;
+    background: #1b1b1b;
+    padding: 20px;
+    margin: 50px 0 0 0;
+    .logo{
+        float: left;
+        img{
+            max-width: 100px;
+            
+        }
+    }
+    .social{
+        float: right;
+        justify-content: center;
+        a{
+            margin: 50px;
+            &:hover{
+                color: #9b9b9b;
+            }
+        }
+    }
+   
+}
+@media screen and (max-width: 490px) {
+    .about{
+        h3{
+            margin: 20px 0 0 0;
+        }
+    }
+    footer{
+        .logo{
+            float: inherit;
+            text-align: center;
+        
+        }
+        .social{
+            float: inherit;
+            text-align: center;
+           
+        }
+       
+    }
+}
